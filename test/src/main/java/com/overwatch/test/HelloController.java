@@ -15,6 +15,8 @@ public class HelloController {
         return "index";
     }
 
+
+
     @GetMapping("/hi")
     public String hi() {
         return "hello";
